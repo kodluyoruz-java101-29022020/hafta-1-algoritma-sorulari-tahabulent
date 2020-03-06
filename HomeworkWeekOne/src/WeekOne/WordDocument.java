@@ -1,22 +1,19 @@
 package WeekOne;
 
 public class WordDocument {
-	
-	 String body;
-	
+
+	String body;
+
 	WordDocument(String Body) {
-		
-		this.body=Body;
-	
+
+		this.body = Body;
+
 	}
-	
+
 	String getbody(String body) {
-		
+
 		return body;
-		
+
 	}
-	
-	
-	
 
 }
