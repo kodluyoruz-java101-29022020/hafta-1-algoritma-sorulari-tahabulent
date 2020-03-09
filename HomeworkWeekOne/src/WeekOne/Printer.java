@@ -6,13 +6,13 @@ public class Printer {
 
 		PDFDocument pdf = new PDFDocument(a);
 
-		System.out.println(pdf.body);
+		System.out.println(pdf.getbody(a));
 	}
 
 	static void printWordDocument(String b) { // Main'de çaðýrabilmek için methodu static tanýmladýk
 
 		WordDocument wrd = new WordDocument(b);
-		System.out.println(wrd.body);
+		System.out.println(wrd.getbody(b));
 	}
 
 	public static void main(String[] args) {

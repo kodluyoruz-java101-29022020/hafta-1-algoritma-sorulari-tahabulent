@@ -2,7 +2,7 @@ package WeekOne;
 
 public class PDFDocument {
 
-	String body;//
+	String body;
 
 	PDFDocument(String Body) {
 
